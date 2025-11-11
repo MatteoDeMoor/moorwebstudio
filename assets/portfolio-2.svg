@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-labelledby="title desc">
+  <title>Portfolio project placeholder</title>
+  <desc>Abstract gradient placeholder image</desc>
+  <defs>
+    <linearGradient id="grad-$i" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f3f4f8"/>
+      <stop offset="100%" stop-color="#cfd7ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="32" fill="url(#grad-$i)"/>
+  <circle cx="180" cy="160" r="60" fill="#ffffff" opacity="0.55"/>
+  <circle cx="420" cy="240" r="90" fill="#ffffff" opacity="0.35"/>
+  <path d="M60 320h480" stroke="#ffffff" stroke-width="8" stroke-linecap="round" opacity="0.5"/>
+</svg>
