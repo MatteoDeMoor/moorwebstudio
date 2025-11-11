@@ -1,18 +1,18 @@
 const translations = {
   nl: {
     meta: {
-      title: "ogoconcept – Websites die bedrijven laten groeien.",
+      title: "Moor Sites – Websites die bedrijven laten groeien.",
       description: "Digitale partner voor groei met op maat gemaakte websites.",
-      ogTitle: "ogoconcept",
+      ogTitle: "Moor Sites",
       ogDescription: "Websites die bedrijven laten groeien.",
-      twitterTitle: "ogoconcept",
+      twitterTitle: "Moor Sites",
       twitterDescription: "Websites die bedrijven laten groeien.",
       schemaSlogan: "Websites die bedrijven laten groeien."
     },
     nav: {
       home: "Home",
       services: "Diensten",
-      portfolio: "Portfolio",
+      portfolio: "Aanbod",
       process: "Werkwijze",
       pricing: "Prijzen",
       about: "Over",
@@ -23,10 +23,10 @@ const translations = {
     },
     hero: {
       eyebrow: "DIGITALE GROEIPARTNER",
-      subtitle: "Websites die bedrijven laten groeien.",
-      pitch: "Wij ontwerpen en bouwen premium digitale ervaringen die leads omzetten en merken laten schitteren.",
+      subtitle: "Websites die moeiteloos resultaat opleveren.",
+      pitch: "We combineren strategie, design en development tot digitale ervaringen die je bedrijf vooruit helpen.",
       primaryCta: "Offerte aanvragen",
-      secondaryCta: "Portfolio bekijken"
+      secondaryCta: "Aanbod ontdekken"
     },
     services: {
       eyebrow: "WAAR WE IN UITBLINKEN",
@@ -61,52 +61,52 @@ const translations = {
       }
     },
     portfolio: {
-      eyebrow: "PORTFOLIO",
-      title: "Projecten waar we trots op zijn",
-      description: "Elke case is gebouwd rond meetbare impact. Van conversiegerichte landingspagina's tot performante webshops.",
+      eyebrow: "ONS AANBOD",
+      title: "Digitale oplossingen die we opleveren",
+      description: "Geen cases, wel de trajecten en deliverables waarmee we jouw groei versnellen.",
       filters: {
-        all: "Alle",
-        landing: "Landingspagina",
-        shop: "Webshop",
-        corporate: "Bedrijfssite"
+        all: "Alles",
+        landing: "Websites",
+        shop: "Webshops",
+        corporate: "Groei & support"
       },
-      hover: "Bekijk case",
+      hover: "Bekijk aanbod",
       items: [
         {
-          title: "Horizon Launch",
-          text: "Productintroductie met storytelling, animaties en directe lead flows.",
-          tags: ["Strategie", "UX/UI"]
+          title: "Conversiegerichte one-pagers",
+          text: "Snel gelanceerde landingspagina's met sterke copy, tracking en conversie-elementen.",
+          tags: ["Snel live", "SEO-ready"]
         },
         {
-          title: "Aurora Commerce",
-          text: "Conversiegerichte webshop met realtime voorraad en marketing automation.",
-          tags: ["Webshop", "Optimalisatie"]
+          title: "Merkwebsites op maat",
+          text: "Modulaire websites afgestemd op je merkverhaal, klaar voor CMS-beheer.",
+          tags: ["UX design", "CMS"]
         },
         {
-          title: "Vertex Consulting",
-          text: "Premium corporate site met thought-leadership hub en resource library.",
-          tags: ["Corporate", "Content"]
+          title: "Leadgeneratieplatformen",
+          text: "Funnels met gated content, automatisatie en integraties die sales versterken.",
+          tags: ["Lead nurturing", "Integraties"]
         },
         {
-          title: "Nova Summit",
-          text: "Event landing page met ticketing, sprekersprofielen en sponsor area.",
-          tags: ["Landing", "Integraties"]
+          title: "Campagne- & eventpagina's",
+          text: "Microsites voor campagnes en events met focus op activatie en conversie.",
+          tags: ["Sprints", "Conversie"]
         },
         {
-          title: "Stellar Boutique",
-          text: "High-end e-commerce met lookbooks, wishlist en klantreviews.",
-          tags: ["Branding", "eCommerce"]
+          title: "E-commerce ervaringen",
+          text: "Performante webshops met optimale checkout en data-gedreven optimalisaties.",
+          tags: ["Checkout", "Analytics"]
         },
         {
-          title: "Beacon Partners",
-          text: "Leadmachine voor B2B-dienstverlener met CRM-integratie en gated content.",
-          tags: ["Leadgen", "CRM"]
+          title: "Groei- en supporttrajecten",
+          text: "Doorlopende optimalisatie, onderhoud en support met een vaste digitale partner.",
+          tags: ["Monitoring", "Optimalisatie"]
         }
       ],
       highlight: {
-        title: "Case spotlight: Vertex Consulting",
-        text: "Optimalisatie- en redesigntraject zorgde voor groei over de hele funnel.",
-        stats: ["+42% conversie", "+68% snellere laadtijd"]
+        title: "Waarom teams voor Moor Sites kiezen",
+        text: "We koppelen strategie aan design en development zodat jouw site blijft presteren.",
+        stats: ["Klanttevredenheid", "Snellere laadtijden"]
       }
     },
     process: {
@@ -173,7 +173,7 @@ const translations = {
     testimonials: {
       eyebrow: "SOCIAL PROOF",
       title: "Wat klanten zeggen",
-      description: "Teams vertrouwen op ogoconcept om digitale ambities waar te maken.",
+      description: "Teams vertrouwen op Moor Sites om digitale ambities waar te maken.",
       carouselAria: "Klantreacties slider",
       items: [
         {
@@ -199,7 +199,7 @@ const translations = {
       info: {
         title: "Direct contact",
         text: "Liever persoonlijk? We staan klaar voor een gesprek.",
-        email: "hello@ogoconcept.be",
+        email: "hello@moorsites.be",
         phone: "+32 470 12 34 56",
         location: "Gent, België"
       },
@@ -237,23 +237,23 @@ const translations = {
       tagline: "Websites die bedrijven laten groeien.",
       links: "Snel naar",
       follow: "Volg ons",
-      credits: "Gemaakt door ogoconcept"
+      credits: "Gemaakt door Moor Sites"
     }
   },
   en: {
     meta: {
-      title: "ogoconcept – Websites that help businesses grow.",
+      title: "Moor Sites – Websites that help businesses grow.",
       description: "Digital partner for growth with tailor-made websites.",
-      ogTitle: "ogoconcept",
+      ogTitle: "Moor Sites",
       ogDescription: "Websites that help businesses grow.",
-      twitterTitle: "ogoconcept",
+      twitterTitle: "Moor Sites",
       twitterDescription: "Websites that help businesses grow.",
       schemaSlogan: "Websites that help businesses grow."
     },
     nav: {
       home: "Home",
       services: "Services",
-      portfolio: "Portfolio",
+      portfolio: "Offerings",
       process: "Process",
       pricing: "Pricing",
       about: "About",
@@ -264,10 +264,10 @@ const translations = {
     },
     hero: {
       eyebrow: "DIGITAL GROWTH PARTNER",
-      subtitle: "Websites that help businesses grow.",
-      pitch: "We craft premium digital experiences that convert leads and elevate brands.",
+      subtitle: "Websites engineered for measurable outcomes.",
+      pitch: "We blend strategy, design, and development into digital experiences that keep your business moving forward.",
       primaryCta: "Request a quote",
-      secondaryCta: "View portfolio"
+      secondaryCta: "View offerings"
     },
     services: {
       eyebrow: "WHAT WE DO",
@@ -302,52 +302,52 @@ const translations = {
       }
     },
     portfolio: {
-      eyebrow: "PORTFOLIO",
-      title: "Projects we are proud of",
-      description: "Every case is built for measurable impact. From conversion-led landing pages to high-performing ecommerce.",
+      eyebrow: "OFFERINGS",
+      title: "Digital outcomes we deliver",
+      description: "Explore the deliverables and programs we build to accelerate your growth.",
       filters: {
         all: "All",
-        landing: "Landing Page",
-        shop: "Online Store",
-        corporate: "Corporate"
+        landing: "Websites",
+        shop: "Online stores",
+        corporate: "Growth & support"
       },
-      hover: "View case",
+      hover: "View offering",
       items: [
         {
-          title: "Horizon Launch",
-          text: "Product launch with storytelling, micro-animations, and direct lead flows.",
-          tags: ["Strategy", "UX/UI"]
+          title: "Conversion-ready landing pages",
+          text: "Launch fast with persuasive copy, tracking, and components built to convert.",
+          tags: ["Fast launch", "SEO-ready"]
         },
         {
-          title: "Aurora Commerce",
-          text: "Conversion-focused ecommerce with live inventory and marketing automation.",
-          tags: ["Ecommerce", "Optimization"]
+          title: "Custom brand websites",
+          text: "Modular websites tailored to your story and ready for intuitive CMS management.",
+          tags: ["UX design", "CMS"]
         },
         {
-          title: "Vertex Consulting",
-          text: "Premium corporate site with thought leadership hub and resource library.",
-          tags: ["Corporate", "Content"]
+          title: "Lead generation platforms",
+          text: "Funnels with gated content, automation, and integrations that power sales.",
+          tags: ["Lead nurturing", "Integrations"]
         },
         {
-          title: "Nova Summit",
-          text: "Event landing with ticketing, speaker profiles, and sponsor showcase.",
-          tags: ["Landing", "Integrations"]
+          title: "Campaign & event hubs",
+          text: "High-impact microsites for launches, events, and campaigns with conversion focus.",
+          tags: ["Sprints", "Conversion"]
         },
         {
-          title: "Stellar Boutique",
-          text: "High-end online store with lookbooks, wishlist, and customer reviews.",
-          tags: ["Branding", "eCommerce"]
+          title: "Ecommerce experiences",
+          text: "High-performing storefronts with streamlined checkout and data-driven optimization.",
+          tags: ["Checkout", "Analytics"]
         },
         {
-          title: "Beacon Partners",
-          text: "B2B lead engine with CRM integration and gated content journeys.",
-          tags: ["Lead Gen", "CRM"]
+          title: "Growth & support programs",
+          text: "Ongoing optimization, maintenance, and support from a dedicated digital partner.",
+          tags: ["Monitoring", "Optimization"]
         }
       ],
       highlight: {
-        title: "Case spotlight: Vertex Consulting",
-        text: "Optimization and redesign program that boosted performance across the funnel.",
-        stats: ["+42% conversion", "+68% faster load times"]
+        title: "Why teams choose Moor Sites",
+        text: "Strategy, design, and development working together so your site keeps delivering.",
+        stats: ["Client satisfaction", "Faster load times"]
       }
     },
     process: {
@@ -414,7 +414,7 @@ const translations = {
     testimonials: {
       eyebrow: "SOCIAL PROOF",
       title: "What clients say",
-      description: "Teams rely on ogoconcept to unlock digital ambitions.",
+      description: "Teams rely on Moor Sites to unlock digital ambitions.",
       carouselAria: "Client stories slider",
       items: [
         {
@@ -440,7 +440,7 @@ const translations = {
       info: {
         title: "Reach out",
         text: "Prefer a direct chat? We're just a message away.",
-        email: "hello@ogoconcept.be",
+        email: "hello@moorsites.be",
         phone: "+32 470 12 34 56",
         location: "Ghent, Belgium"
       },
@@ -478,7 +478,7 @@ const translations = {
       tagline: "Websites that help businesses grow.",
       links: "Quick links",
       follow: "Follow us",
-      credits: "Crafted by ogoconcept"
+      credits: "Crafted by Moor Sites"
     }
   }
 };
@@ -503,7 +503,8 @@ const contactForm = document.querySelector('.contact-form');
 const schemaScript = document.getElementById('organization-schema');
 const sliderContainer = document.querySelector('.testimonial-slider');
 
-let activeLang = localStorage.getItem('ogoconcept-lang') || 'nl';
+const storedLang = localStorage.getItem('moorsites-lang') || localStorage.getItem('ogoconcept-lang');
+let activeLang = storedLang || 'nl';
 let currentSlide = 0;
 let sliderInterval;
 
@@ -702,7 +703,8 @@ const setLanguage = (langKey) => {
     button.setAttribute('aria-pressed', String(isActive));
   });
   applyTranslations(langKey);
-  localStorage.setItem('ogoconcept-lang', langKey);
+  localStorage.setItem('moorsites-lang', langKey);
+  localStorage.removeItem('ogoconcept-lang');
 };
 
 languageButtons.forEach((button) => {

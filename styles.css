@@ -3,7 +3,8 @@
   --bg: #f6f7fb;
   --text: #10131f;
   --muted: #596072;
-  --accent: #5f6af8;
+  --accent: #187dd4;
+  --accent-soft: #45b5ff;
   --card: rgba(255, 255, 255, 0.8);
   --border: rgba(20, 30, 60, 0.1);
   --radius-large: 16px;
@@ -78,9 +79,9 @@ img {
 }
 
 .button--primary {
-  background: linear-gradient(120deg, var(--accent), #8891ff);
+  background: linear-gradient(120deg, var(--accent), var(--accent-soft));
   color: #fff;
-  box-shadow: 0 12px 24px rgba(95, 106, 248, 0.3);
+  box-shadow: 0 12px 24px rgba(24, 125, 212, 0.3);
 }
 
 .button--ghost {
@@ -92,7 +93,7 @@ img {
 .button:hover,
 .button:focus-visible {
   transform: translateY(-2px);
-  box-shadow: 0 16px 30px rgba(95, 106, 248, 0.28);
+  box-shadow: 0 16px 30px rgba(24, 125, 212, 0.28);
 }
 
 .button--ghost:hover,
@@ -234,14 +235,14 @@ img {
 .hero {
   position: relative;
   padding: clamp(6rem, 10vw, 10rem) 0 5rem;
-  background: radial-gradient(circle at 20% 20%, rgba(95, 106, 248, 0.15), transparent 45%), linear-gradient(180deg, rgba(255, 255, 255, 0.85), transparent 70%);
+  background: radial-gradient(circle at 20% 20%, rgba(24, 125, 212, 0.18), transparent 45%), linear-gradient(180deg, rgba(69, 181, 255, 0.15), transparent 70%);
 }
 
 .hero::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at 80% 30%, rgba(136, 145, 255, 0.18), transparent 50%);
+  background: radial-gradient(circle at 80% 30%, rgba(69, 181, 255, 0.18), transparent 50%);
   pointer-events: none;
 }
 
@@ -431,7 +432,7 @@ img {
 .portfolio__filter:focus-visible {
   background: var(--accent);
   color: #fff;
-  box-shadow: 0 14px 28px rgba(95, 106, 248, 0.2);
+  box-shadow: 0 14px 28px rgba(24, 125, 212, 0.2);
   border-color: transparent;
 }
 
@@ -465,7 +466,7 @@ img {
   content: attr(data-label);
   position: absolute;
   inset: 0;
-  background: linear-gradient(140deg, rgba(95, 106, 248, 0.2), rgba(16, 19, 31, 0.65));
+  background: linear-gradient(140deg, rgba(24, 125, 212, 0.24), rgba(15, 25, 45, 0.65));
   color: #fff;
   display: flex;
   align-items: center;
@@ -520,7 +521,7 @@ img {
 
 .portfolio-card__tags li {
   padding: 0.3rem 0.75rem;
-  background: rgba(95, 106, 248, 0.12);
+  background: rgba(24, 125, 212, 0.12);
   border-radius: 999px;
   font-size: 0.85rem;
   color: var(--accent);
@@ -584,7 +585,7 @@ img {
   top: 0;
   bottom: 0;
   width: 3px;
-  background: linear-gradient(180deg, rgba(95, 106, 248, 0.2), rgba(95, 106, 248, 0.6));
+  background: linear-gradient(180deg, rgba(24, 125, 212, 0.25), rgba(24, 125, 212, 0.6));
 }
 
 .process-step {
@@ -613,7 +614,7 @@ img {
   display: grid;
   place-items: center;
   font-weight: 700;
-  box-shadow: 0 12px 30px rgba(95, 106, 248, 0.4);
+  box-shadow: 0 12px 30px rgba(24, 125, 212, 0.35);
 }
 
 .process-step.is-visible {
@@ -652,7 +653,7 @@ img {
   justify-self: start;
   padding: 0.3rem 0.85rem;
   border-radius: 999px;
-  background: rgba(95, 106, 248, 0.15);
+  background: rgba(24, 125, 212, 0.12);
   color: var(--accent);
   font-weight: 600;
 }
@@ -707,7 +708,7 @@ img {
 .about__skills li {
   padding: 0.5rem 1.2rem;
   border-radius: 999px;
-  background: rgba(95, 106, 248, 0.12);
+  background: rgba(24, 125, 212, 0.12);
   color: var(--accent);
   font-weight: 600;
 }
@@ -786,7 +787,7 @@ img {
   height: 44px;
   border-radius: 50%;
   border: none;
-  background: rgba(95, 106, 248, 0.15);
+  background: rgba(24, 125, 212, 0.15);
   color: var(--accent);
   cursor: pointer;
   font-size: 1.1rem;
@@ -841,7 +842,7 @@ img {
 .contact-form select:focus,
 .contact-form textarea:focus {
   border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(95, 106, 248, 0.2);
+  box-shadow: 0 0 0 3px rgba(24, 125, 212, 0.25);
   outline: none;
 }
 
