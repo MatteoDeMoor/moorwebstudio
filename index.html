@@ -26,8 +26,7 @@
     "contactPoint": {
       "@type": "ContactPoint",
       "contactType": "customer service",
-      "email": "hello@moorsites.be",
-      "telephone": "+32 470 12 34 56",
+      "email": "matteo.de.moor@skynet.be",
       "areaServed": "BE"
     }
   }
@@ -36,9 +35,7 @@
 <body>
   <header class="site-header" id="top">
     <nav class="nav" aria-label="Hoofd navigatie">
-      <a href="#top" class="nav__logo" aria-label="Moor Sites homepage">
-        <img src="images/Moor Sites.png" alt="Moor Sites logo" width="160" height="40" loading="lazy" />
-      </a>
+      <a href="#top" class="nav__logo" aria-label="Moor Sites homepage">Moor Sites</a>
       <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Menu">
         <span></span>
         <span></span>
@@ -48,7 +45,6 @@
         <ul class="nav__list">
           <li><a href="#home" class="nav__link" data-i18n="nav.home"></a></li>
           <li><a href="#services" class="nav__link" data-i18n="nav.services"></a></li>
-          <li><a href="#portfolio" class="nav__link" data-i18n="nav.portfolio"></a></li>
           <li><a href="#process" class="nav__link" data-i18n="nav.process"></a></li>
           <li><a href="#pricing" class="nav__link" data-i18n="nav.pricing"></a></li>
           <li><a href="#about" class="nav__link" data-i18n="nav.about"></a></li>
@@ -74,13 +70,13 @@
           <p class="hero__subtitle" data-i18n="hero.subtitle"></p>
           <p class="hero__pitch" data-i18n="hero.pitch"></p>
           <div class="hero__actions">
-            <a href="#portfolio" class="button button--ghost" data-i18n="hero.secondaryCta"></a>
+            <a href="#pricing" class="button button--ghost" data-i18n="hero.secondaryCta"></a>
             <a href="#contact" class="button button--primary" data-i18n="hero.primaryCta"></a>
           </div>
         </div>
         <div class="hero__visual">
-          <div class="hero__glass">
-            <img src="images/Matteo.jpg" alt="Profielfoto Matteo De Moor" width="320" height="320" loading="lazy" />
+          <div class="hero__glass hero__glass--logo">
+            <img src="images/Moor Sites.png" alt="Moor Sites logo" class="hero__logo" width="260" height="120" loading="lazy" />
           </div>
         </div>
       </div>
@@ -139,118 +135,6 @@
               <li data-i18n="services.optimization.bullets.2"></li>
             </ul>
           </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="portfolio" id="portfolio">
-      <div class="container">
-        <div class="section-heading">
-          <p class="section-heading__eyebrow" data-i18n="portfolio.eyebrow"></p>
-          <h2 class="section-heading__title" data-i18n="portfolio.title"></h2>
-          <p class="section-heading__description" data-i18n="portfolio.description"></p>
-        </div>
-        <div class="portfolio__filters" role="group" aria-label="Filters">
-          <button class="portfolio__filter is-active" data-filter="all" data-i18n="portfolio.filters.all"></button>
-          <button class="portfolio__filter" data-filter="landing" data-i18n="portfolio.filters.landing"></button>
-          <button class="portfolio__filter" data-filter="shop" data-i18n="portfolio.filters.shop"></button>
-          <button class="portfolio__filter" data-filter="corporate" data-i18n="portfolio.filters.corporate"></button>
-        </div>
-        <div class="portfolio__grid">
-          <article class="portfolio-card" data-category="landing">
-            <figure class="portfolio-card__media" data-i18n-hover="portfolio.hover">
-              <img src="assets/portfolio-1.svg" alt="Servicevisual Conversiegerichte one-pagers" width="600" height="400" loading="lazy" />
-            </figure>
-            <div class="portfolio-card__body">
-              <h3 class="portfolio-card__title" data-i18n="portfolio.items.0.title"></h3>
-              <p class="portfolio-card__text" data-i18n="portfolio.items.0.text"></p>
-              <ul class="portfolio-card__tags">
-                <li data-i18n="portfolio.items.0.tags.0"></li>
-                <li data-i18n="portfolio.items.0.tags.1"></li>
-              </ul>
-            </div>
-          </article>
-          <article class="portfolio-card" data-category="shop">
-            <figure class="portfolio-card__media" data-i18n-hover="portfolio.hover">
-              <img src="assets/portfolio-2.svg" alt="Servicevisual Merkwebsites" width="600" height="400" loading="lazy" />
-            </figure>
-            <div class="portfolio-card__body">
-              <h3 class="portfolio-card__title" data-i18n="portfolio.items.1.title"></h3>
-              <p class="portfolio-card__text" data-i18n="portfolio.items.1.text"></p>
-              <ul class="portfolio-card__tags">
-                <li data-i18n="portfolio.items.1.tags.0"></li>
-                <li data-i18n="portfolio.items.1.tags.1"></li>
-              </ul>
-            </div>
-          </article>
-          <article class="portfolio-card" data-category="corporate">
-            <figure class="portfolio-card__media" data-i18n-hover="portfolio.hover">
-              <img src="assets/portfolio-3.svg" alt="Servicevisual Leadplatformen" width="600" height="400" loading="lazy" />
-            </figure>
-            <div class="portfolio-card__body">
-              <h3 class="portfolio-card__title" data-i18n="portfolio.items.2.title"></h3>
-              <p class="portfolio-card__text" data-i18n="portfolio.items.2.text"></p>
-              <ul class="portfolio-card__tags">
-                <li data-i18n="portfolio.items.2.tags.0"></li>
-                <li data-i18n="portfolio.items.2.tags.1"></li>
-              </ul>
-            </div>
-          </article>
-          <article class="portfolio-card" data-category="landing">
-            <figure class="portfolio-card__media" data-i18n-hover="portfolio.hover">
-              <img src="assets/portfolio-4.svg" alt="Servicevisual Campagnepagina's" width="600" height="400" loading="lazy" />
-            </figure>
-            <div class="portfolio-card__body">
-              <h3 class="portfolio-card__title" data-i18n="portfolio.items.3.title"></h3>
-              <p class="portfolio-card__text" data-i18n="portfolio.items.3.text"></p>
-              <ul class="portfolio-card__tags">
-                <li data-i18n="portfolio.items.3.tags.0"></li>
-                <li data-i18n="portfolio.items.3.tags.1"></li>
-              </ul>
-            </div>
-          </article>
-          <article class="portfolio-card" data-category="shop">
-            <figure class="portfolio-card__media" data-i18n-hover="portfolio.hover">
-              <img src="assets/portfolio-5.svg" alt="Servicevisual E-commerce ervaringen" width="600" height="400" loading="lazy" />
-            </figure>
-            <div class="portfolio-card__body">
-              <h3 class="portfolio-card__title" data-i18n="portfolio.items.4.title"></h3>
-              <p class="portfolio-card__text" data-i18n="portfolio.items.4.text"></p>
-              <ul class="portfolio-card__tags">
-                <li data-i18n="portfolio.items.4.tags.0"></li>
-                <li data-i18n="portfolio.items.4.tags.1"></li>
-              </ul>
-            </div>
-          </article>
-          <article class="portfolio-card" data-category="corporate">
-            <figure class="portfolio-card__media" data-i18n-hover="portfolio.hover">
-              <img src="assets/portfolio-6.svg" alt="Servicevisual Groei- en supporttrajecten" width="600" height="400" loading="lazy" />
-            </figure>
-            <div class="portfolio-card__body">
-              <h3 class="portfolio-card__title" data-i18n="portfolio.items.5.title"></h3>
-              <p class="portfolio-card__text" data-i18n="portfolio.items.5.text"></p>
-              <ul class="portfolio-card__tags">
-                <li data-i18n="portfolio.items.5.tags.0"></li>
-                <li data-i18n="portfolio.items.5.tags.1"></li>
-              </ul>
-            </div>
-          </article>
-        </div>
-        <div class="portfolio-highlight" aria-live="polite">
-          <div class="portfolio-highlight__content">
-            <h3 class="portfolio-highlight__title" data-i18n="portfolio.highlight.title"></h3>
-            <p class="portfolio-highlight__text" data-i18n="portfolio.highlight.text"></p>
-          </div>
-          <div class="portfolio-highlight__stats">
-            <div class="portfolio-highlight__stat">
-              <span class="portfolio-highlight__number" data-target="95">0%</span>
-              <span class="portfolio-highlight__label" data-i18n="portfolio.highlight.stats.0"></span>
-            </div>
-            <div class="portfolio-highlight__stat">
-              <span class="portfolio-highlight__number" data-target="60">0%</span>
-              <span class="portfolio-highlight__label" data-i18n="portfolio.highlight.stats.1"></span>
-            </div>
-          </div>
         </div>
       </div>
     </section>
@@ -441,8 +325,7 @@
           <h3 class="contact__info-title" data-i18n="contact.info.title"></h3>
           <p data-i18n="contact.info.text"></p>
           <ul class="contact__info-list">
-            <li><a href="mailto:hello@moorsites.be" data-i18n="contact.info.email"></a></li>
-            <li><a href="tel:+32470123456" data-i18n="contact.info.phone"></a></li>
+            <li><a href="mailto:matteo.de.moor@skynet.be" data-i18n="contact.info.email"></a></li>
             <li data-i18n="contact.info.location"></li>
           </ul>
         </aside>
@@ -461,7 +344,6 @@
         <ul>
           <li><a href="#home" data-i18n="nav.home"></a></li>
           <li><a href="#services" data-i18n="nav.services"></a></li>
-          <li><a href="#portfolio" data-i18n="nav.portfolio"></a></li>
           <li><a href="#pricing" data-i18n="nav.pricing"></a></li>
           <li><a href="#contact" data-i18n="nav.contact"></a></li>
         </ul>
