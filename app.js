@@ -1,218 +1,168 @@
 const translations = {
   nl: {
     meta: {
-      title: "Moor Sites – Websites die bedrijven laten groeien.",
-      description: "Digitale partner voor groei met op maat gemaakte websites.",
+      title: "Moor Sites – Simpele websites voor ondernemers.",
+      description: "Ik ontwerp en bouw overzichtelijke websites zonder onnodige complexiteit.",
       ogTitle: "Moor Sites",
-      ogDescription: "Websites die bedrijven laten groeien.",
+      ogDescription: "Simpele websites voor ondernemers.",
       twitterTitle: "Moor Sites",
-      twitterDescription: "Websites die bedrijven laten groeien.",
-      schemaSlogan: "Websites die bedrijven laten groeien."
+      twitterDescription: "Simpele websites voor ondernemers.",
+      schemaSlogan: "Simpele websites die werken."
     },
     nav: {
       home: "Home",
       services: "Diensten",
-      portfolio: "Aanbod",
       process: "Werkwijze",
-      pricing: "Prijzen",
-      about: "Over",
+      pricing: "Pakketten",
+      about: "Over mij",
       contact: "Contact",
-      cta: "Offerte aanvragen",
+      cta: "Plan een kennismaking",
       aria: "Hoofdnavigatie",
       menu: "Menu"
     },
     hero: {
-      eyebrow: "DIGITALE GROEIPARTNER",
-      subtitle: "Websites die moeiteloos resultaat opleveren.",
-      pitch: "We combineren strategie, design en development tot digitale ervaringen die je bedrijf vooruit helpen.",
-      primaryCta: "Offerte aanvragen",
-      secondaryCta: "Aanbod ontdekken"
+      eyebrow: "ZELFSTANDIGE WEBBOUWER",
+      subtitle: "Ik bouw duidelijke websites die passen bij jouw verhaal.",
+      pitch: "Als éénmansstudio combineer ik design en front-end ontwikkeling om snelle, onderhoudsvrije sites op te leveren.",
+      primaryCta: "Contact opnemen",
+      secondaryCta: "Bekijk pakketten"
     },
     services: {
-      eyebrow: "WAAR WE IN UITBLINKEN",
-      title: "End-to-end weboplossingen",
-      description: "Van strategie tot lancering: wij leveren digitale platforms die de lat hoger leggen voor performance, uitstraling en conversie.",
+      eyebrow: "WAT IK VOOR JE DOE",
+      title: "Simpele websites zonder gedoe",
+      description: "Geen complexe backend of overbodige features: ik bouw overzichtelijke sites die makkelijk te beheren zijn.",
       webdesign: {
-        title: "Webdesign",
-        text: "Visuele identiteiten vertaald naar gebruiksvriendelijke interfaces met focus op merkbeleving.",
+        title: "One-page websites",
+        text: "Snel online met een compacte pagina die precies vertelt wie je bent.",
         bullets: [
-          "Custom UI/UX ontwerp",
-          "Volledig responsive layouts",
-          "Designsystemen & componenten"
+          "Heldere structuur en call-to-action",
+          "Responsief ontwerp voor mobiel en desktop",
+          "Contactformulier of afsprakenlink"
         ]
       },
       development: {
-        title: "Development",
-        text: "Schaalbare front-end ontwikkeling met oog voor detail, snelheid en beheerbaarheid.",
+        title: "2 à 3 pagina's",
+        text: "Een kleine site met ruimte voor diensten, over mij en contact zonder technische ballast.",
         bullets: [
-          "Schoon gestructureerde code",
-          "CMS-koppelingen op maat",
-          "Toegankelijkheidsrichtlijnen (AA)"
+          "Navigatie op maat",
+          "Aanpasbare secties in duidelijke blokken",
+          "Basis SEO en analytics"
         ]
       },
       optimization: {
-        title: "Optimalisatie",
-        text: "Continue groei via data, testing en optimalisatie voor betere resultaten.",
+        title: "Ondersteuning",
+        text: "Wil je later uitbreiden of maandelijks bijsturen? Ik blijf beschikbaar als sparringpartner.",
         bullets: [
-          "Core Web Vitals tuning",
-          "SEO-basis en structuur",
-          "Prestatie- en conversietests"
+          "Extra pagina's of modules op aanvraag",
+          "Updates en kleine optimalisaties",
+          "Maandelijkse rapportage mogelijk"
         ]
-      }
-    },
-    portfolio: {
-      eyebrow: "ONS AANBOD",
-      title: "Digitale oplossingen die we opleveren",
-      description: "Geen cases, wel de trajecten en deliverables waarmee we jouw groei versnellen.",
-      filters: {
-        all: "Alles",
-        landing: "Websites",
-        shop: "Webshops",
-        corporate: "Groei & support"
-      },
-      hover: "Bekijk aanbod",
-      items: [
-        {
-          title: "Conversiegerichte one-pagers",
-          text: "Snel gelanceerde landingspagina's met sterke copy, tracking en conversie-elementen.",
-          tags: ["Snel live", "SEO-ready"]
-        },
-        {
-          title: "Merkwebsites op maat",
-          text: "Modulaire websites afgestemd op je merkverhaal, klaar voor CMS-beheer.",
-          tags: ["UX design", "CMS"]
-        },
-        {
-          title: "Leadgeneratieplatformen",
-          text: "Funnels met gated content, automatisatie en integraties die sales versterken.",
-          tags: ["Lead nurturing", "Integraties"]
-        },
-        {
-          title: "Campagne- & eventpagina's",
-          text: "Microsites voor campagnes en events met focus op activatie en conversie.",
-          tags: ["Sprints", "Conversie"]
-        },
-        {
-          title: "E-commerce ervaringen",
-          text: "Performante webshops met optimale checkout en data-gedreven optimalisaties.",
-          tags: ["Checkout", "Analytics"]
-        },
-        {
-          title: "Groei- en supporttrajecten",
-          text: "Doorlopende optimalisatie, onderhoud en support met een vaste digitale partner.",
-          tags: ["Monitoring", "Optimalisatie"]
-        }
-      ],
-      highlight: {
-        title: "Waarom teams voor Moor Sites kiezen",
-        text: "We koppelen strategie aan design en development zodat jouw site blijft presteren.",
-        stats: ["Klanttevredenheid", "Snellere laadtijden"]
       }
     },
     process: {
       eyebrow: "WERKWIJZE",
-      title: "Samen bouwen we aan groei",
-      description: "Een transparant traject met duidelijke milestones en continue communicatie.",
+      title: "Zo pakken we het samen aan",
+      description: "Een persoonlijk traject met korte lijnen en duidelijke verwachtingen.",
       steps: [
-        { title: "Intake", text: "We duiken in doelen, doelgroep en businessmodel om het project scherp te stellen." },
-        { title: "Analyse", text: "Data en inzichten vertalen we naar een heldere roadmap met prioriteiten." },
-        { title: "Design", text: "Wireframes en high-fidelity designs afgestemd op merkidentiteit en conversie." },
-        { title: "Development", text: "Pixel-perfect implementatie met focus op performance en beheerbaarheid." },
-        { title: "Launch & Growth", text: "Oplevering, training en doorlopende optimalisaties voor blijvende impact." }
+        { title: "Kennismaking", text: "We bespreken jouw doelen en de inhoud die op de site moet komen." },
+        { title: "Structuur", text: "Ik stel een sitemap en wireframes voor die passen bij een compacte website." },
+        { title: "Ontwerp", text: "Je ontvangt een visueel voorstel in Figma met jouw branding en copy." },
+        { title: "Bouw", text: "Ik ontwikkel de pagina's in snelle front-end code en test op verschillende schermen." },
+        { title: "Oplevering", text: "We lopen alles samen door en ik bezorg je duidelijke instructies voor beheer." }
       ]
     },
     pricing: {
-      eyebrow: "PRIJZEN",
-      title: "Pakketten afgestemd op ambitie",
-      description: "Transparante formules die meegroeien met uw organisatie.",
+      eyebrow: "PAKKETTEN",
+      title: "Kies wat bij je past",
+      description: "Alle pakketten omvatten ontwerp, ontwikkeling en basisoptimalisatie.",
       featured: "Meest gekozen",
-      cta: "Offerte aanvragen",
+      cta: "Plan een kennismaking",
       plans: [
         {
-          name: "Starter",
-          price: "€3.950",
+          name: "One-page start",
+          price: "€695",
           features: [
-            "One-page of compacte site",
-            "Responsive design",
-            "SEO-basis inrichting",
-            "1 maand ondersteuning"
+            "Één pagina met duidelijke structuur",
+            "Design afgestemd op jouw huisstijl",
+            "Responsief en snel",
+            "Basis SEO en analytics setup"
           ]
         },
         {
-          name: "Pro",
-          price: "€6.950",
+          name: "Compact verhaal",
+          price: "€995",
           features: [
-            "Tot 10 pagina's op maat",
-            "CMS implementatie",
-            "Performance optimalisatie",
-            "3 maanden support"
+            "2 à 3 pagina's op maat",
+            "Navigatie en contactsectie",
+            "Ondersteuning bij copy",
+            "Videocall bij oplevering"
           ]
         },
         {
-          name: "Growth",
-          price: "€9.950",
+          name: "Flex traject",
+          price: "In overleg",
           features: [
-            "Uitgebreide site of webshop",
-            "Marketing integraties",
-            "Conversion tracking",
-            "6 maanden optimalisatie"
+            "Extra pagina's of functionaliteit",
+            "Maandelijkse ondersteuning mogelijk",
+            "Facturatie per maand of project",
+            "Start met strategische intake"
           ]
         }
       ]
     },
     about: {
-      eyebrow: "OVER ONS",
+      eyebrow: "OVER MIJ",
       title: "Matteo De Moor",
-      description: "Digital strategist en maker met een passie voor schaalbare interfaces en meetbare resultaten.",
-      skills: ["HTML", "CSS", "JavaScript", "Performance", "Toegankelijkheid", "UX/UI"],
+      description: "Zelfstandig webbouwer met een achtergrond in data science. In 2025 studeer ik af als Bachelor AI & Data Engineering.",
+      skills: ["HTML", "CSS", "JavaScript", "Figma", "Data-analyse", "No-code tooling"],
       badges: [
-        { value: "10+", label: "Jaar ervaring" },
-        { value: "98%", label: "Klanttevredenheid" }
+        { value: "2025", label: "Bachelor AI & Data Engineering" },
+        { value: "Data science", label: "Stage- en projectervaring" }
       ]
     },
     testimonials: {
-      eyebrow: "SOCIAL PROOF",
-      title: "Wat klanten zeggen",
-      description: "Teams vertrouwen op Moor Sites om digitale ambities waar te maken.",
-      carouselAria: "Klantreacties slider",
+      eyebrow: "WERKWIJZE",
+      title: "Nog geen reviews, wel transparantie",
+      description: "Ik heb nog geen klantenquotes, dus vertel ik graag zelf hoe ik werk.",
+      carouselAria: "Hoe ik werk slider",
       items: [
         {
-          quote: "\"De combinatie van strategie en pixel-perfect uitvoering leverde een website op die echt converteert.\"",
-          author: "Sophie Vermeulen – Marketing Manager"
+          quote: "\"Je praat altijd rechtstreeks met mij: van eerste call tot de laatste pixel.\"",
+          author: "Matteo De Moor"
         },
         {
-          quote: "\"Ons ecommerce-platform draait sneller dan ooit en het team blijft optimaliseren op basis van data.\"",
-          author: "Tom Jacobs – Founder Aurora"
+          quote: "\"Ik lever snel op met duidelijke feedbackrondes zodat jij nooit hoeft te gissen naar de status.\"",
+          author: "Matteo De Moor"
         },
         {
-          quote: "\"Heldere aanpak, sterke communicatie en een resultaat waar ons sales-team elke dag van profiteert.\"",
-          author: "Leen Martens – Partner Beacon"
+          quote: "\"Na oplevering blijf ik beschikbaar voor kleine updates of een flexibel vervolgtraject.\"",
+          author: "Matteo De Moor"
         }
       ],
-      prev: "Vorige testimonial",
-      next: "Volgende testimonial"
+      prev: "Vorige highlight",
+      next: "Volgende highlight"
     },
     contact: {
       eyebrow: "CONTACT",
-      title: "Klaar om te groeien?",
-      description: "Vertel ons over uw project en we nemen binnen 24 uur contact op.",
+      title: "Samen iets bouwen?",
+      description: "Laat iets weten en ik reageer persoonlijk binnen twee werkdagen.",
       info: {
-        title: "Direct contact",
-        text: "Liever persoonlijk? We staan klaar voor een gesprek.",
-        email: "hello@moorsites.be",
-        phone: "+32 470 12 34 56",
-        location: "Gent, België"
+        title: "Direct mailen",
+        text: "Stuur me gerust je idee of vraag.",
+        email: "matteo.de.moor@skynet.be",
+        phone: "",
+        location: "Aalst, België"
       },
       form: {
         name: {
           label: "Naam",
-          placeholder: "Uw naam",
-          error: "Gelieve uw naam in te vullen."
+          placeholder: "Jouw naam",
+          error: "Vul je naam in."
         },
         email: {
           label: "E-mail",
           placeholder: "naam@bedrijf.com",
-          error: "Vul een geldig e-mailadres in."
+          error: "Gebruik een geldig e-mailadres."
         },
         company: {
           label: "Bedrijf (optioneel)",
@@ -221,182 +171,132 @@ const translations = {
         budget: {
           label: "Budget",
           placeholder: "Selecteer budget",
-          options: ["€3k – €5k", "€5k – €10k", "€10k+"],
-          error: "Selecteer een budgetindicatie."
+          options: ["€500 – €800", "€800 – €1.200", "€1.200+"],
+          error: "Kies een budgetindicatie."
         },
         message: {
           label: "Bericht",
-          placeholder: "Vertel ons over uw project",
-          error: "Beschrijf kort uw project."
+          placeholder: "Vertel iets over je project",
+          error: "Beschrijf kort je project."
         },
         submit: "Verstuur bericht",
-        success: "Bedankt! We nemen snel contact op."
+        success: "Bedankt! Ik kom snel bij je terug."
       }
     },
     footer: {
-      tagline: "Websites die bedrijven laten groeien.",
+      tagline: "Simpele websites voor ondernemers.",
       links: "Snel naar",
-      follow: "Volg ons",
+      follow: "Volg mij",
       credits: "Gemaakt door Moor Sites"
     }
   },
   en: {
     meta: {
-      title: "Moor Sites – Websites that help businesses grow.",
-      description: "Digital partner for growth with tailor-made websites.",
+      title: "Moor Sites – Simple websites for entrepreneurs.",
+      description: "I design and build straightforward websites without unnecessary complexity.",
       ogTitle: "Moor Sites",
-      ogDescription: "Websites that help businesses grow.",
+      ogDescription: "Simple websites for entrepreneurs.",
       twitterTitle: "Moor Sites",
-      twitterDescription: "Websites that help businesses grow.",
-      schemaSlogan: "Websites that help businesses grow."
+      twitterDescription: "Simple websites for entrepreneurs.",
+      schemaSlogan: "Simple websites that work."
     },
     nav: {
       home: "Home",
       services: "Services",
-      portfolio: "Offerings",
       process: "Process",
-      pricing: "Pricing",
-      about: "About",
+      pricing: "Packages",
+      about: "About me",
       contact: "Contact",
-      cta: "Request a quote",
+      cta: "Book an intro call",
       aria: "Primary navigation",
       menu: "Menu"
     },
     hero: {
-      eyebrow: "DIGITAL GROWTH PARTNER",
-      subtitle: "Websites engineered for measurable outcomes.",
-      pitch: "We blend strategy, design, and development into digital experiences that keep your business moving forward.",
-      primaryCta: "Request a quote",
-      secondaryCta: "View offerings"
+      eyebrow: "SOLO WEB CREATOR",
+      subtitle: "I build clear websites that fit your story.",
+      pitch: "As a one-person studio I combine design and front-end development to ship fast, maintenance-light sites.",
+      primaryCta: "Get in touch",
+      secondaryCta: "View packages"
     },
     services: {
-      eyebrow: "WHAT WE DO",
-      title: "End-to-end web solutions",
-      description: "From strategy to launch, we deliver digital platforms engineered for performance, presence, and conversion.",
+      eyebrow: "WHAT I DO",
+      title: "Simple websites without the bloat",
+      description: "No heavy backends or unnecessary features—just clean sites that are easy to understand and maintain.",
       webdesign: {
-        title: "Web Design",
-        text: "Visual identities translated into intuitive interfaces with a focus on brand experience.",
+        title: "One-page websites",
+        text: "Launch quickly with a single page that tells the essentials.",
         bullets: [
-          "Custom UI/UX design",
-          "Fully responsive layouts",
-          "Design systems & components"
+          "Sharp structure with a clear CTA",
+          "Responsive across devices",
+          "Contact form or booking link"
         ]
       },
       development: {
-        title: "Development",
-        text: "Scalable front-end development built for speed, detail, and maintainability.",
+        title: "2-3 page sites",
+        text: "A compact site covering your services, story, and contact details.",
         bullets: [
-          "Clean, structured code",
-          "Tailored CMS integrations",
-          "Accessibility compliance (AA)"
+          "Custom navigation",
+          "Flexible sections in clear blocks",
+          "Essential SEO and analytics"
         ]
       },
       optimization: {
-        title: "Optimization",
-        text: "Continuous growth through data, testing, and iterative improvements.",
+        title: "Ongoing support",
+        text: "Ready when you need extra pages or monthly updates after launch.",
         bullets: [
-          "Core Web Vitals tuning",
-          "SEO foundations",
-          "Performance & conversion tests"
+          "Additional pages on request",
+          "Small updates and tweaks",
+          "Optional monthly reporting"
         ]
-      }
-    },
-    portfolio: {
-      eyebrow: "OFFERINGS",
-      title: "Digital outcomes we deliver",
-      description: "Explore the deliverables and programs we build to accelerate your growth.",
-      filters: {
-        all: "All",
-        landing: "Websites",
-        shop: "Online stores",
-        corporate: "Growth & support"
-      },
-      hover: "View offering",
-      items: [
-        {
-          title: "Conversion-ready landing pages",
-          text: "Launch fast with persuasive copy, tracking, and components built to convert.",
-          tags: ["Fast launch", "SEO-ready"]
-        },
-        {
-          title: "Custom brand websites",
-          text: "Modular websites tailored to your story and ready for intuitive CMS management.",
-          tags: ["UX design", "CMS"]
-        },
-        {
-          title: "Lead generation platforms",
-          text: "Funnels with gated content, automation, and integrations that power sales.",
-          tags: ["Lead nurturing", "Integrations"]
-        },
-        {
-          title: "Campaign & event hubs",
-          text: "High-impact microsites for launches, events, and campaigns with conversion focus.",
-          tags: ["Sprints", "Conversion"]
-        },
-        {
-          title: "Ecommerce experiences",
-          text: "High-performing storefronts with streamlined checkout and data-driven optimization.",
-          tags: ["Checkout", "Analytics"]
-        },
-        {
-          title: "Growth & support programs",
-          text: "Ongoing optimization, maintenance, and support from a dedicated digital partner.",
-          tags: ["Monitoring", "Optimization"]
-        }
-      ],
-      highlight: {
-        title: "Why teams choose Moor Sites",
-        text: "Strategy, design, and development working together so your site keeps delivering.",
-        stats: ["Client satisfaction", "Faster load times"]
       }
     },
     process: {
       eyebrow: "PROCESS",
-      title: "Co-creating growth",
-      description: "A transparent journey with clear milestones and consistent communication.",
+      title: "How we'll work together",
+      description: "A personal, transparent journey with clear expectations.",
       steps: [
-        { title: "Discovery", text: "We explore objectives, audience, and business model to define scope." },
-        { title: "Analysis", text: "Insights turn into a sharp roadmap with aligned priorities." },
-        { title: "Design", text: "Wireframes and high-fidelity designs aligned with brand and conversion." },
-        { title: "Development", text: "Pixel-perfect implementation focused on performance and maintainability." },
-        { title: "Launch & Growth", text: "Go-live, enablement, and continuous optimization for lasting impact." }
+        { title: "Discovery", text: "We talk through your goals and gather the content for the site." },
+        { title: "Structure", text: "I outline a concise sitemap and wireframes for a compact build." },
+        { title: "Design", text: "You'll review a Figma concept tailored to your branding and copy." },
+        { title: "Build", text: "I code the pages in fast front-end tech and test responsiveness." },
+        { title: "Launch", text: "We review together and I hand over clear guidance for upkeep." }
       ]
     },
     pricing: {
-      eyebrow: "PRICING",
-      title: "Packages built for ambition",
-      description: "Transparent plans that scale with your organization.",
+      eyebrow: "PACKAGES",
+      title: "Pick what fits",
+      description: "Every package includes design, development, and essential optimisation.",
       featured: "Most popular",
-      cta: "Request a quote",
+      cta: "Book an intro call",
       plans: [
         {
-          name: "Starter",
-          price: "€3,950",
+          name: "One-page start",
+          price: "€695",
           features: [
-            "Single-page or compact site",
-            "Responsive design",
-            "SEO foundations",
-            "1 month support"
+            "Single page with clear structure",
+            "Design aligned with your brand",
+            "Responsive and fast",
+            "Basic SEO and analytics setup"
           ]
         },
         {
-          name: "Pro",
-          price: "€6,950",
+          name: "Compact story",
+          price: "€995",
           features: [
-            "Up to 10 tailored pages",
-            "CMS implementation",
-            "Performance optimization",
-            "3 months support"
+            "2-3 tailored pages",
+            "Navigation and contact section",
+            "Copy support",
+            "Handover video call"
           ]
         },
         {
-          name: "Growth",
-          price: "€9,950",
+          name: "Flexible partnership",
+          price: "Custom",
           features: [
-            "Large website or ecommerce",
-            "Marketing integrations",
-            "Conversion tracking",
-            "6 months optimization"
+            "Additional pages or features",
+            "Optional monthly support",
+            "Flexible invoicing",
+            "Kick-off strategy session"
           ]
         }
       ]
@@ -404,45 +304,45 @@ const translations = {
     about: {
       eyebrow: "ABOUT",
       title: "Matteo De Moor",
-      description: "Digital strategist and maker focused on scalable interfaces and measurable outcomes.",
-      skills: ["HTML", "CSS", "JavaScript", "Performance", "Accessibility", "UX/UI"],
+      description: "Independent web creator with a data science background. Graduating in 2025 as a Bachelor in AI & Data Engineering.",
+      skills: ["HTML", "CSS", "JavaScript", "Figma", "Data analysis", "No-code tooling"],
       badges: [
-        { value: "10+", label: "Years experience" },
-        { value: "98%", label: "Client satisfaction" }
+        { value: "2025", label: "BSc AI & Data Engineering" },
+        { value: "Data science", label: "Internships & projects" }
       ]
     },
     testimonials: {
-      eyebrow: "SOCIAL PROOF",
-      title: "What clients say",
-      description: "Teams rely on Moor Sites to unlock digital ambitions.",
-      carouselAria: "Client stories slider",
+      eyebrow: "HOW I WORK",
+      title: "No testimonials yet, just honesty",
+      description: "I haven't worked with clients yet, so here's what you can expect when collaborating with me.",
+      carouselAria: "How I work slider",
       items: [
         {
-          quote: "\"The mix of strategy and pixel-perfect execution delivered a site that truly converts.\"",
-          author: "Sophie Vermeulen – Marketing Manager"
+          quote: "\"You'll always speak directly with me—from first call to final tweaks.\"",
+          author: "Matteo De Moor"
         },
         {
-          quote: "\"Our ecommerce platform runs faster than ever and the team keeps optimizing with data.\"",
-          author: "Tom Jacobs – Founder Aurora"
+          quote: "\"I iterate quickly with clear feedback loops so you're never guessing about progress.\"",
+          author: "Matteo De Moor"
         },
         {
-          quote: "\"Clear process, strong communication, and results our sales team benefits from daily.\"",
-          author: "Leen Martens – Partner Beacon"
+          quote: "\"After launch I'm available for small updates or a flexible follow-up plan.\"",
+          author: "Matteo De Moor"
         }
       ],
-      prev: "Previous testimonial",
-      next: "Next testimonial"
+      prev: "Previous highlight",
+      next: "Next highlight"
     },
     contact: {
       eyebrow: "CONTACT",
-      title: "Ready to accelerate?",
-      description: "Share your project and we'll be in touch within 24 hours.",
+      title: "Ready to build together?",
+      description: "Drop me a line and I'll reply within two business days.",
       info: {
-        title: "Reach out",
-        text: "Prefer a direct chat? We're just a message away.",
-        email: "hello@moorsites.be",
-        phone: "+32 470 12 34 56",
-        location: "Ghent, Belgium"
+        title: "Email directly",
+        text: "Send over your idea or question.",
+        email: "matteo.de.moor@skynet.be",
+        phone: "",
+        location: "Aalst, Belgium"
       },
       form: {
         name: {
@@ -462,22 +362,22 @@ const translations = {
         budget: {
           label: "Budget",
           placeholder: "Select budget",
-          options: ["€3k – €5k", "€5k – €10k", "€10k+"],
+          options: ["€500 – €800", "€800 – €1,200", "€1,200+"],
           error: "Choose a budget range."
         },
         message: {
           label: "Message",
-          placeholder: "Tell us about your project",
+          placeholder: "Tell me about your project",
           error: "Please describe your project."
         },
         submit: "Send message",
-        success: "Thank you! We'll be in touch shortly."
+        success: "Thanks! I'll get back to you soon."
       }
     },
     footer: {
-      tagline: "Websites that help businesses grow.",
+      tagline: "Simple websites for entrepreneurs.",
       links: "Quick links",
-      follow: "Follow us",
+      follow: "Follow me",
       credits: "Crafted by Moor Sites"
     }
   }
@@ -603,10 +503,14 @@ const applyTranslations = (langKey) => {
   });
 
   document.querySelectorAll('a[href^="mailto:"]').forEach((link) => {
-    link.textContent = dictionary.contact.info.email;
+    if (dictionary.contact?.info?.email) {
+      link.textContent = dictionary.contact.info.email;
+    }
   });
   document.querySelectorAll('a[href^="tel:"]').forEach((link) => {
-    link.textContent = dictionary.contact.info.phone;
+    if (dictionary.contact?.info?.phone) {
+      link.textContent = dictionary.contact.info.phone;
+    }
   });
 
   const locationNode = document.querySelector('.contact__info-list li:last-child');
@@ -633,6 +537,7 @@ const applyTranslations = (langKey) => {
     const serviceKey = ['webdesign', 'development', 'optimization'][index];
     if (!serviceKey) return;
     const serviceData = dictionary.services[serviceKey];
+    if (!serviceData) return;
     const bulletItems = card.querySelectorAll('.service-card__list li');
     serviceData.bullets.forEach((text, bulletIndex) => {
       const bullet = bulletItems[bulletIndex];
@@ -640,14 +545,16 @@ const applyTranslations = (langKey) => {
     });
   });
 
-  portfolioCards.forEach((card, index) => {
-    const data = dictionary.portfolio.items[index];
-    if (!data) return;
-    const tags = card.querySelectorAll('.portfolio-card__tags li');
-    tags.forEach((tag, tagIndex) => {
-      tag.textContent = data.tags[tagIndex] || '';
+  if (dictionary.portfolio?.items) {
+    portfolioCards.forEach((card, index) => {
+      const data = dictionary.portfolio.items[index];
+      if (!data) return;
+      const tags = card.querySelectorAll('.portfolio-card__tags li');
+      tags.forEach((tag, tagIndex) => {
+        tag.textContent = data.tags[tagIndex] || '';
+      });
     });
-  });
+  }
 
   document.querySelectorAll('.pricing-card').forEach((card, index) => {
     const planData = dictionary.pricing.plans[index];

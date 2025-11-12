@@ -132,8 +132,17 @@ img {
   }
 }
 
-.nav__logo img {
-  border-radius: 0;
+.nav__logo {
+  font-weight: 700;
+  font-size: 1.3rem;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.nav__logo:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
 }
 
 .nav__menu {
@@ -315,6 +324,22 @@ img {
   height: clamp(220px, 26vw, 280px);
   object-fit: cover;
   box-shadow: 0 18px 35px rgba(15, 20, 40, 0.22);
+}
+
+.hero__glass--logo {
+  aspect-ratio: auto;
+  padding: clamp(1.5rem, 3vw, 2.5rem);
+  border-radius: 28px;
+  overflow: visible;
+}
+
+.hero__glass--logo img {
+  border-radius: 0;
+  width: clamp(180px, 26vw, 300px);
+  height: auto;
+  object-fit: contain;
+  box-shadow: none;
+  filter: drop-shadow(0 18px 35px rgba(15, 20, 40, 0.18));
 }
 
 .section-heading {
