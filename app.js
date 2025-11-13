@@ -1,11 +1,11 @@
 const translations = {
   nl: {
     meta: {
-      title: "Moor Sites – Simpele websites voor ondernemers.",
+      title: "Moor Webstudio – Simpele websites voor ondernemers.",
       description: "Ik ontwerp en bouw overzichtelijke websites zonder onnodige complexiteit.",
-      ogTitle: "Moor Sites",
+      ogTitle: "Moor Webstudio",
       ogDescription: "Simpele websites voor ondernemers.",
-      twitterTitle: "Moor Sites",
+      twitterTitle: "Moor Webstudio",
       twitterDescription: "Simpele websites voor ondernemers.",
       schemaSlogan: "Simpele websites die werken."
     },
@@ -182,16 +182,16 @@ const translations = {
       tagline: "Simpele websites voor ondernemers.",
       links: "Snel naar",
       follow: "Volg mij",
-      credits: "Gemaakt door Moor Sites"
+      credits: "Gemaakt door Moor Webstudio"
     }
   },
   en: {
     meta: {
-      title: "Moor Sites – Simple websites for entrepreneurs.",
+      title: "Moor Webstudio – Simple websites for entrepreneurs.",
       description: "I design and build straightforward websites without unnecessary complexity.",
-      ogTitle: "Moor Sites",
+      ogTitle: "Moor Webstudio",
       ogDescription: "Simple websites for entrepreneurs.",
-      twitterTitle: "Moor Sites",
+      twitterTitle: "Moor Webstudio",
       twitterDescription: "Simple websites for entrepreneurs.",
       schemaSlogan: "Simple websites that work."
     },
@@ -369,7 +369,7 @@ const translations = {
       tagline: "Simple websites for entrepreneurs.",
       links: "Quick links",
       follow: "Follow me",
-      credits: "Crafted by Moor Sites"
+      credits: "Crafted by Moor Webstudio"
     }
   }
 };
