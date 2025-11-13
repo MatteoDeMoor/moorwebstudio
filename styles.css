@@ -717,8 +717,37 @@ img {
 }
 
 .about__media img {
+  width: min(100%, 320px);
+  aspect-ratio: 1 / 1;
+  height: auto;
+  object-fit: cover;
   border-radius: 50%;
   box-shadow: 0 25px 60px rgba(15, 20, 40, 0.24);
+}
+
+.about__role {
+  margin: 0.75rem 0 1.5rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.about__linkedin {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.about__linkedin::after {
+  content: '\2197';
+  font-size: 0.9em;
+}
+
+.about__linkedin:hover,
+.about__linkedin:focus-visible {
+  text-decoration: underline;
 }
 
 .about__skills {
