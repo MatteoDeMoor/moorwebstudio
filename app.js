@@ -46,7 +46,7 @@ const translations = {
         bullets: [
           "Navigatie op maat",
           "Aanpasbare secties in duidelijke blokken",
-          "Basis SEO en analytics"
+          "Techniek blijft licht en onderhoudsvriendelijk"
         ]
       },
       optimization: {
@@ -66,8 +66,8 @@ const translations = {
       steps: [
         { title: "Kennismaking", text: "We bespreken jouw doelen en de inhoud die op de site moet komen." },
         { title: "Structuur", text: "Ik stel een sitemap en wireframes voor die passen bij een compacte website." },
-        { title: "Ontwerp", text: "Je ontvangt een visueel voorstel in Figma met jouw branding en copy." },
-        { title: "Bouw", text: "Ik ontwikkel de pagina's in snelle front-end code en test op verschillende schermen." },
+        { title: "Eerste versie in code", text: "Ik bouw meteen in code en deel een klikbare versie zodat je alles kunt uitproberen." },
+        { title: "Itereren tot het klopt", text: "We plannen korte feedbackrondes en sturen bij tot de site 100% goed voelt." },
         { title: "Oplevering", text: "We lopen alles samen door en ik bezorg je duidelijke instructies voor beheer." }
       ]
     },
@@ -85,7 +85,7 @@ const translations = {
             "Één pagina met duidelijke structuur",
             "Design afgestemd op jouw huisstijl",
             "Responsief en snel",
-            "Basis SEO en analytics setup"
+            "Techniek blijft licht en eenvoudig te beheren"
           ]
         },
         {
@@ -113,11 +113,13 @@ const translations = {
     about: {
       eyebrow: "OVER MIJ",
       title: "Matteo De Moor",
-      description: "Zelfstandig webbouwer met een achtergrond in data science. In 2025 studeer ik af als Bachelor AI & Data Engineering.",
-      skills: ["HTML", "CSS", "JavaScript", "Figma", "Data-analyse", "No-code tooling"],
+      description: "Zelfstandig webbouwer én data engineer in opleiding. Ik werk momenteel als data engineer en studeer in 2025 af als Bachelor AI & Data Engineering.",
+      role: "Huidige rol: data engineer die data vertaalt naar tools voor ondernemers.",
+      linkedin: "Connect op LinkedIn",
+      skills: ["HTML", "CSS", "JavaScript", "Python", "Data engineering"],
       badges: [
         { value: "2025", label: "Bachelor AI & Data Engineering" },
-        { value: "Data science", label: "Stage- en projectervaring" }
+        { value: "Data engineering", label: "Huidige rol" }
       ]
     },
     testimonials: {
@@ -167,12 +169,6 @@ const translations = {
         company: {
           label: "Bedrijf (optioneel)",
           placeholder: "Bedrijfsnaam"
-        },
-        budget: {
-          label: "Budget",
-          placeholder: "Selecteer budget",
-          options: ["€500 – €800", "€800 – €1.200", "€1.200+"],
-          error: "Kies een budgetindicatie."
         },
         message: {
           label: "Bericht",
@@ -237,7 +233,7 @@ const translations = {
         bullets: [
           "Custom navigation",
           "Flexible sections in clear blocks",
-          "Essential SEO and analytics"
+          "Lightweight tech that stays easy to maintain"
         ]
       },
       optimization: {
@@ -257,8 +253,8 @@ const translations = {
       steps: [
         { title: "Discovery", text: "We talk through your goals and gather the content for the site." },
         { title: "Structure", text: "I outline a concise sitemap and wireframes for a compact build." },
-        { title: "Design", text: "You'll review a Figma concept tailored to your branding and copy." },
-        { title: "Build", text: "I code the pages in fast front-end tech and test responsiveness." },
+        { title: "First version in code", text: "I prototype directly in code so you can click through the real thing right away." },
+        { title: "Iterate until it fits", text: "We run short feedback loops and keep refining until everything feels spot-on." },
         { title: "Launch", text: "We review together and I hand over clear guidance for upkeep." }
       ]
     },
@@ -276,7 +272,7 @@ const translations = {
             "Single page with clear structure",
             "Design aligned with your brand",
             "Responsive and fast",
-            "Basic SEO and analytics setup"
+            "Lightweight tech that's easy to maintain"
           ]
         },
         {
@@ -304,11 +300,13 @@ const translations = {
     about: {
       eyebrow: "ABOUT",
       title: "Matteo De Moor",
-      description: "Independent web creator with a data science background. Graduating in 2025 as a Bachelor in AI & Data Engineering.",
-      skills: ["HTML", "CSS", "JavaScript", "Figma", "Data analysis", "No-code tooling"],
+      description: "Independent web creator with a data engineering focus. I'm currently working as a data engineer while graduating in 2025 with a BSc in AI & Data Engineering.",
+      role: "Current role: data engineer translating pipelines into practical tools.",
+      linkedin: "Connect on LinkedIn",
+      skills: ["HTML", "CSS", "JavaScript", "Python", "Data engineering"],
       badges: [
         { value: "2025", label: "BSc AI & Data Engineering" },
-        { value: "Data science", label: "Internships & projects" }
+        { value: "Data engineering", label: "Current role" }
       ]
     },
     testimonials: {
@@ -358,12 +356,6 @@ const translations = {
         company: {
           label: "Company (optional)",
           placeholder: "Company name"
-        },
-        budget: {
-          label: "Budget",
-          placeholder: "Select budget",
-          options: ["€500 – €800", "€800 – €1,200", "€1,200+"],
-          error: "Choose a budget range."
         },
         message: {
           label: "Message",
