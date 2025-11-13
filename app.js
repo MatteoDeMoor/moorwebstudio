@@ -113,13 +113,12 @@ const translations = {
     about: {
       eyebrow: "OVER MIJ",
       title: "Matteo De Moor",
-      description: "Zelfstandig webbouwer én data engineer in opleiding. Ik werk momenteel als data engineer en studeer in 2025 af als Bachelor AI & Data Engineering.",
-      role: "Huidige rol: data engineer die data vertaalt naar tools voor ondernemers.",
+      description: "Zelfstandig webbouwer en data engineer. Ik ben net afgestudeerd als Bachelor AI & Data Engineering aan HoGent en werk momenteel als data engineer. Daarnaast heb ik ook ervaring als data scientist.",
       linkedin: "Connect op LinkedIn",
       skills: ["HTML", "CSS", "JavaScript", "Python"],
       badges: [
-        { value: "2025", label: "Bachelor AI & Data Engineering" },
-        { value: "Data engineering", label: "Huidige rol" }
+        { value: "2025", label: "Bachelor AI & Data Engineering"},
+        { value: "Data Engineer", label: "Huidige rol" }
       ]
     },
     testimonials: {
