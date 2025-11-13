@@ -116,7 +116,7 @@ const translations = {
       description: "Zelfstandig webbouwer én data engineer in opleiding. Ik werk momenteel als data engineer en studeer in 2025 af als Bachelor AI & Data Engineering.",
       role: "Huidige rol: data engineer die data vertaalt naar tools voor ondernemers.",
       linkedin: "Connect op LinkedIn",
-      skills: ["HTML", "CSS", "JavaScript", "Python", "Data engineering"],
+      skills: ["HTML", "CSS", "JavaScript", "Python"],
       badges: [
         { value: "2025", label: "Bachelor AI & Data Engineering" },
         { value: "Data engineering", label: "Huidige rol" }
