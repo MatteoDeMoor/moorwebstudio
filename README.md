@@ -21,35 +21,11 @@ This repository contains the static assets that power the Moor Web Studio websit
 - **CSS3** for layout, typography, and animations (`styles.css`).
 - **JavaScript** for interactive behaviors and dynamic elements (`app.js`).
 
-## Getting Started
-
-You can view the site locally by opening `index.html` in your browser.
-
-```bash
-# clone the repository
-git clone https://github.com/MatteoDeMoor/moorwebstudio.git
-cd moorwebstudio
-
-# open the site
-open index.html   # macOS
-# or
-xdg-open index.html  # Linux
-```
-
-## Customization
-- Update text content directly in `index.html`.
-- Replace or add imagery in the `images/` folder.
-- Adjust styling rules within `styles.css`.
-- Modify animations or behavior in `app.js`.
-
-## Contributing
-
-Contributions are welcome! Feel free to open an issue or submit a pull request with improvements or bug fixes. Please ensure changes are documented and tested locally before submitting.
-
 ## License
 
-This project is released under the MIT License. See [`LICENSE`](LICENSE) if present in the repository, or include your preferred license file.
+```text
+Copyright (c) 2025 Matteo De Moor
+All Rights Reserved.
 
----
-
-If you have questions or want to collaborate, reach out via the contact links on the live website above.
+No permission is granted to copy, modify or redistribute this software without explicit written consent from the author.
+```
