@@ -964,6 +964,43 @@ img {
   gap: 0.75rem;
 }
 
+.contact__info-list li {
+  margin: 0;
+}
+
+.contact__email {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.65rem 1.25rem;
+  border-radius: 999px;
+  border: 1px solid rgba(8, 12, 29, 0.08);
+  background: rgba(66, 116, 232, 0.08);
+  color: #0f1b46;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.contact__email::before {
+  content: "✉";
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.contact__email:hover,
+.contact__email:focus-visible {
+  background: rgba(66, 116, 232, 0.16);
+  border-color: rgba(66, 116, 232, 0.4);
+  color: #0a2e75;
+  transform: translateY(-1px);
+}
+
+.contact__email:focus-visible {
+  outline: 2px solid rgba(66, 116, 232, 0.6);
+  outline-offset: 3px;
+}
+
 .footer {
   padding: 3rem 0 2rem;
   background: rgba(16, 19, 31, 0.92);
