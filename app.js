@@ -65,7 +65,7 @@ const translations = {
       description: "Een persoonlijk traject met korte lijnen en duidelijke verwachtingen.",
       steps: [
         { title: "Kennismaking", text: "We bespreken jouw doelen en de inhoud die op de site moet komen." },
-        { title: "Structuur", text: "Ik stel een sitemap en wireframes voor die passen bij een compacte website." },
+        { title: "Structuur", text: "We bepalen samen welke pagina’s je nodig hebt en hoe de inhoud logisch wordt opgebouwd." },
         { title: "Eerste versie in code", text: "Ik bouw meteen in code en deel een klikbare versie zodat je alles kunt uitproberen." },
         { title: "Itereren tot het klopt", text: "We plannen korte feedbackrondes en sturen bij tot de site 100% goed voelt." },
         { title: "Oplevering", text: "We lopen alles samen door en ik zorg daarna voor het beheer en de updates." }
@@ -257,7 +257,7 @@ const translations = {
       description: "A personal, transparent journey with clear expectations.",
       steps: [
         { title: "Discovery", text: "We talk through your goals and gather the content for the site." },
-        { title: "Structure", text: "I outline a concise sitemap and wireframes for a compact build." },
+        { title: "Structure", text: "Together, we determine which pages you need and how the content will be structured logically." },
         { title: "First version in code", text: "I prototype directly in code so you can click through the real thing right away." },
         { title: "Iterate until it fits", text: "We run short feedback loops and keep refining until everything feels spot-on." },
         { title: "Launch", text: "We review everything together and I continue to take care of maintenance and updates." }
