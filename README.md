@@ -4,7 +4,7 @@ Welcome to the source code for **Moor Web Studio**, a personal portfolio site sh
 
 ## Live Website
 
-Explore the production site here: [https://matteodemoor.github.io/moorwebstudio/](https://matteodemoor.github.io/moorwebstudio/)
+Explore the production site here: [https://moorwebstudio.be/](https://moorwebstudio.be/)
 
 ## Project Overview
 
