@@ -2,8 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://moorwebstudio.be/</loc>
-    <lastmod>2024-05-07</lastmod>
+    <lastmod>2025-05-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://moorwebstudio.be/privacybeleid.html</loc>
+    <lastmod>2025-05-16</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://moorwebstudio.be/algemene-voorwaarden.html</loc>
+    <lastmod>2025-05-16</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
   </url>
 </urlset>
